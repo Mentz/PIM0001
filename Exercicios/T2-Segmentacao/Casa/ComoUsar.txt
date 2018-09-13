@@ -1,0 +1,5 @@
+Para ter o resultado esperado para o problema proposto:
+$ sh runme.sh
+
+O script irá gerar um arquivo de saída "casa_segmentada.png".
+Abra essa imagem e veja que o resultado é o esperado (somente o telhado branco ficou na imagem).
