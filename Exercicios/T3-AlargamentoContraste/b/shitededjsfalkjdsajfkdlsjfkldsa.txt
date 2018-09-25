@@ -1,0 +1,526 @@
+a11y-profile-manager-indicator account-plugin-facebook account-plugin-flickr
+  account-plugin-google accountsservice acpi-support acpid activity-log-manager
+  adium-theme-ubuntu aisleriot alex ant ant-optional apg
+  app-install-data-partner appmenu-qt appmenu-qt5 apport apport-gtk
+  apport-symptoms appstream apturl apturl-common arduino arduino-core aspectj at
+  atom auctex aufs-tools augeas-lenses avahi-utils avr-libc avrdude bamfdaemon
+  baobab bbswitch-dkms binutils-avr bleachbit bluez bluez-cups bonnie++
+  branding-ubuntu bridge-utils brltty bsdtar busybox-static ca-certificates-java
+  ca-certificates-mono cabal-install cabal-install-1.22 cdbs cgmanager
+  cgroup-bin cgroup-lite cgroup-tools cgroupfs-mount checkbox-converged
+  checkbox-gui checkinstall cheese cheese-common cl-asdf cl-pipes cli-common
+  cmake cmake-data codeblocks codeblocks-common command-not-found
+  common-lisp-controller compiz compiz-core compiz-gnome compiz-plugins-default
+  coq coq-theories coqide cowsay cowsay-off cpu-checker cpulimit
+  cracklib-runtime cuda-repo-ubuntu1604-8-0-local-ga2 cup cups-pk-helper dbench
+  dc dconf-cli dctrl-tools ddd ddd-doc debootstrap default-jdk
+  default-jdk-headless default-jre default-jre-headless deja-dup devscripts
+  dh-translations dkms dmidecode dmz-cursor-theme dns-root-data dnsmasq-base
+  dnsutils doc-base docker-ce docutils-common docutils-doc doxygen dput dynamips
+  ebtables eclipse-jdt eclipse-pde eclipse-platform eclipse-platform-data
+  eclipse-rcp efibootmgr emacs emacs24 emacs24-bin-common emacs24-common
+  emacs24-common-non-dfsg emacs24-el encryptr espeak-data ethtool
+  evolution-data-server evolution-data-server-online-accounts example-content
+  extra-xdg-menus fastjar file-roller fio firefox-locale-en firefox-locale-pt
+  flashplugin-installer fonts-dejavu-extra fonts-guru fonts-guru-extra
+  fonts-kacst fonts-kacst-one fonts-khmeros-core fonts-lao fonts-lklug-sinhala
+  fonts-lohit-guru fonts-noto-cjk fonts-opensymbol fonts-sil-abyssinica
+  fonts-sil-padauk fonts-stix fonts-symbola fonts-texgyre fonts-thai-tlwg
+  fonts-tibetan-machine fonts-tlwg-garuda fonts-tlwg-garuda-ttf
+  fonts-tlwg-kinnari fonts-tlwg-kinnari-ttf fonts-tlwg-laksaman
+  fonts-tlwg-laksaman-ttf fonts-tlwg-loma fonts-tlwg-loma-ttf fonts-tlwg-mono
+  fonts-tlwg-mono-ttf fonts-tlwg-norasi fonts-tlwg-norasi-ttf fonts-tlwg-purisa
+  fonts-tlwg-purisa-ttf fonts-tlwg-sawasdee fonts-tlwg-sawasdee-ttf
+  fonts-tlwg-typewriter fonts-tlwg-typewriter-ttf fonts-tlwg-typist
+  fonts-tlwg-typist-ttf fonts-tlwg-typo fonts-tlwg-typo-ttf fonts-tlwg-umpush
+  fonts-tlwg-umpush-ttf fonts-tlwg-waree fonts-tlwg-waree-ttf fortune-mod
+  fortunes-br fortunes-min freeglut3 freeglut3-dev freemind freerdp-x11
+  friendly-recovery ftp fwbuilder fwbuilder-common fwbuilder-doc fwupd fwupdate
+  fwupdate-signed gcc-avr gdebi gdebi-core geany geany-common gedit gedit-common
+  genisoimage geoclue-ubuntu-geoip geoip-database-extra ghc ghc-7.10.3
+  gir1.2-accounts-1.0 gir1.2-appindicator3-0.1 gir1.2-atspi-2.0
+  gir1.2-dbusmenu-glib-0.4 gir1.2-dee-1.0 gir1.2-gdata-0.0 gir1.2-gdm-1.0
+  gir1.2-gnomekeyring-1.0 gir1.2-goa-1.0 gir1.2-gst-plugins-base-1.0
+  gir1.2-gtk-2.0 gir1.2-gtksource-3.0 gir1.2-gudev-1.0 gir1.2-ibus-1.0
+  gir1.2-javascriptcoregtk-4.0 gir1.2-json-1.0 gir1.2-notify-0.7 gir1.2-rb-3.0
+  gir1.2-secret-1 gir1.2-signon-1.0 gir1.2-soup-2.4 gir1.2-udisks-2.0
+  gir1.2-unity-5.0 gir1.2-webkit2-4.0 gir1.2-wnck-3.0 git git-man gkbd-capplet
+  gnome-accessibility-themes gnome-bluetooth gnome-calculator gnome-calendar
+  gnome-disk-utility gnome-font-viewer gnome-icon-theme gnome-mahjongg
+  gnome-menus gnome-mines gnome-orca gnome-power-manager gnome-screensaver
+  gnome-screenshot gnome-session-bin gnome-session-canberra gnome-session-common
+  gnome-settings-daemon-schemas gnome-software gnome-software-common
+  gnome-sudoku gnome-system-log gnome-system-monitor gnome-user-share
+  gnome-video-effects gns3-gui gns3-iou gns3-server golang golang-1.6
+  golang-1.6-doc golang-1.6-go golang-1.6-race-detector-runtime golang-1.6-src
+  golang-doc golang-go golang-race-detector-runtime golang-src
+  gsettings-ubuntu-schemas gstreamer1.0-alsa gstreamer1.0-fluendo-mp3
+  gstreamer1.0-plugins-base-apps gtk2-engines-murrine gucharmap guile-2.0-libs
+  gvfs-fuse happy haskell-platform hdparm hscolour htop httperf hud hwloc-nox
+  hyphen-en-us ibus ibus-gtk ibus-gtk3 ibus-table idle idle-python2.7 ieee-data
+  im-config indicator-appmenu indicator-bluetooth indicator-datetime
+  indicator-keyboard indicator-messages indicator-power indicator-printers
+  indicator-session indicator-sound info inputattach intel-gpu-tools intltool
+  iouyap iozone3 iperf ippusbxd iputils-arping iputils-ping iputils-tracepath
+  ipxe-qemu irqbalance jarwrapper java-common java-wrappers jayatana junit
+  junit4 jwhois kate kate5-data kerneloops-daemon kinit kio kpackagelauncherqml
+  kpackagetool5 kpartx ktexteditor-data ktexteditor-katepart kwayland-data
+  kwayland-integration lacheck language-pack-en language-pack-en-base
+  language-pack-gnome-en language-pack-gnome-en-base language-pack-gnome-pt
+  language-pack-gnome-pt-base language-pack-pt language-pack-pt-base
+  language-selector-common language-selector-gnome laptop-detect lib32z1
+  liba11y-profile-manager-0.1-0 liba11y-profile-manager-data libabw-0.1-1v5
+  libaccount-plugin-1.0-0 libaccount-plugin-generic-oauth
+  libaccount-plugin-google libaccounts-glib0 libaccounts-qt5-1
+  libaccountsservice0 libaec-dev libaec0 libaio1 libandroid-properties1
+  libao-common libao4 libaopalliance-java libapache-pom-java libapache2-mod-php
+  libapache2-mod-php7.0 libappindicator1 libappstream-glib8 libappstream3
+  libarmadillo6 libarpack2 libasm3-java libasm4-java libasound2-dev
+  libaspectj-java libatinject-jsr330-api-java libatk-adaptor libatk1.0-dev
+  libatkmm-1.6-1v5 libatlas-base-dev libatlas-dev libaudio2 libaugeas0
+  libavahi-gobject0 libavahi-ui-gtk3-0 libbamf3-2 libbcel-java libblas-dev
+  libbluetooth3 libbonobo2-0 libbonobo2-common libbonoboui2-0
+  libbonoboui2-common libboost-date-time1.58.0 libboost-random1.58.0
+  libboost-thread1.58.0 libbrlapi0.6 libbsd-dev libbsh-java libbz2-dev
+  libc-ares2 libc6-arm64-cross libc6-armel-armhf-cross libc6-armel-cross
+  libc6-armhf-armel-cross libc6-armhf-cross libc6-dbg-arm64-cross
+  libc6-dbg-armel-cross libc6-dbg-armhf-cross libc6-dbg-hppa-cross
+  libc6-dbg-m68k-cross libc6-dbg-mips-cross libc6-dbg-mips64-cross
+  libc6-dbg-mips64el-cross libc6-dbg-mipsel-cross libc6-dbg-powerpc-cross
+  libc6-dbg-powerpcspe-cross libc6-dbg-ppc64-cross libc6-dbg-ppc64el-cross
+  libc6-dbg-s390x-cross libc6-dbg-sh4-cross libc6-dbg-sparc64-cross
+  libc6-dev-arm64-cross libc6-dev-armel-armhf-cross libc6-dev-armel-cross
+  libc6-dev-armhf-armel-cross libc6-dev-armhf-cross libc6-dev-hppa-cross
+  libc6-dev-m68k-cross libc6-dev-mips-cross libc6-dev-mips32-mips64-cross
+  libc6-dev-mips32-mips64el-cross libc6-dev-mips64-cross
+  libc6-dev-mips64-mips-cross libc6-dev-mips64-mipsel-cross
+  libc6-dev-mips64el-cross libc6-dev-mipsel-cross libc6-dev-mipsn32-mips-cross
+  libc6-dev-mipsn32-mips64-cross libc6-dev-mipsn32-mips64el-cross
+  libc6-dev-mipsn32-mipsel-cross libc6-dev-powerpc-cross
+  libc6-dev-powerpc-ppc64-cross libc6-dev-powerpcspe-cross libc6-dev-ppc64-cross
+  libc6-dev-ppc64-powerpc-cross libc6-dev-ppc64el-cross
+  libc6-dev-s390-s390x-cross libc6-dev-s390x-cross libc6-dev-sh4-cross
+  libc6-dev-sparc-sparc64-cross libc6-dev-sparc64-cross libc6-hppa-cross
+  libc6-m68k-cross libc6-mips-cross libc6-mips32-mips64-cross
+  libc6-mips32-mips64el-cross libc6-mips64-cross libc6-mips64-mips-cross
+  libc6-mips64-mipsel-cross libc6-mips64el-cross libc6-mipsel-cross
+  libc6-mipsn32-mips-cross libc6-mipsn32-mips64-cross
+  libc6-mipsn32-mips64el-cross libc6-mipsn32-mipsel-cross libc6-pic
+  libc6-powerpc-cross libc6-powerpc-ppc64-cross libc6-powerpcspe-cross
+  libc6-ppc64-cross libc6-ppc64-powerpc-cross libc6-ppc64el-cross
+  libc6-s390-s390x-cross libc6-s390x-cross libc6-sh4-cross
+  libc6-sparc-sparc64-cross libc6-sparc64-cross libc6.1-alpha-cross
+  libc6.1-dbg-alpha-cross libc6.1-dev-alpha-cross libcaca-dev libcacard0
+  libcairo-script-interpreter2 libcairo2-dev libcairomm-1.0-1v5
+  libcanberra-gtk3-0 libcanberra-gtk3-module libcdi-api-java libcdr-0.1-1
+  libcglib3-java libcgroup1 libcheese-gtk25 libcheese8 libclang1-3.6
+  libclassworlds-java libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libcodeblocks0 libcolumbus1-common libcolumbus1v5 libcommons-beanutils-java
+  libcommons-cli-java libcommons-codec-java libcommons-collections3-java
+  libcommons-compress-java libcommons-dbcp-java libcommons-digester-java
+  libcommons-httpclient-java libcommons-io-java libcommons-lang-java
+  libcommons-lang3-java libcommons-logging-java libcommons-net-java
+  libcommons-net2-java libcommons-parent-java libcommons-pool-java
+  libcompizconfig0 libcoq-ocaml libcr-dev libcr0 libcrack2 libctemplate2v5
+  libcublas7.5 libcuda1-375 libcudart7.5 libcufft7.5 libcufftw7.5 libcuinj64-7.5
+  libcurand7.5 libcusolver7.5 libcusparse7.5 libdap17v5 libdapclient6v5
+  libdb-java libdb-je-java libdb5.3-java libdb5.3-java-jni libdbusmenu-qt2
+  libdbusmenu-qt5 libdecoration0 libdfu1 libdistro-info-perl
+  libdmapsharing-3.0-2 libdom4j-java libdotconf0 libdouble-conversion1v5
+  libdoxia-core-java libdrm-dev libe-book-0.1-1 libeasymock-java libecal-1.2-19
+  libecj-java libeclipse-aether-java libedata-cal-1.2-28 libedataserverui-1.2-1
+  libefivar0 libeot0 libepsilon1 libequinox-osgi-java liberror-perl libespeak1
+  libetonyek-0.1-1 libevent-2.0-5 libevent-core-2.0-5 libexiv2-14 libexpat1-dev
+  libexttextcat-2.0-0 libexttextcat-data libfam0 libfcitx-config4
+  libfcitx-gclient0 libfcitx-utils0 libfdt1 libfelix-bundlerepository-java
+  libfelix-gogo-command-java libfelix-gogo-runtime-java libfelix-gogo-shell-java
+  libfelix-osgi-obr-java libfelix-shell-java libfelix-utils-java libffi-dev
+  libfile-homedir-perl libfile-which-perl libflac-dev libfontconfig1-dev
+  libframe6 libfreehand-0.1-1 libfreerdp-cache1.1 libfreerdp-client1.1
+  libfreerdp-codec1.1 libfreerdp-common1.1.0 libfreerdp-core1.1
+  libfreerdp-crypto1.1 libfreerdp-gdi1.1 libfreerdp-locale1.1
+  libfreerdp-plugins-standard libfreerdp-primitives1.1 libfreerdp-rail1.1
+  libfreerdp-utils1.1 libfreetype6-dev libfreexl1 libftdi1 libfwup0 libfwupd1
+  libgail-common libgail18 libgc1c2 libgcab-1.0-0 libgdal1i libgdiplus
+  libgdk-pixbuf2.0-dev libgdm-dev libgdm1 libgee-0.8-2 libgeis1 libgeocode-glib0
+  libgeonames0 libgeos-3.5.0 libgeos-c1v5 libgeronimo-interceptor-3.0-spec-java
+  libgeronimo-jpa-2.0-spec-java libgeronimo-osgi-support-java libgexiv2-2
+  libghc-async-dev libghc-attoparsec-dev libghc-case-insensitive-dev
+  libghc-fgl-dev libghc-gluraw-dev libghc-glut-dev libghc-hashable-dev
+  libghc-haskell-src-dev libghc-html-dev libghc-http-dev libghc-hunit-dev
+  libghc-mtl-dev libghc-network-dev libghc-network-uri-dev libghc-objectname-dev
+  libghc-old-locale-dev libghc-old-time-dev libghc-opengl-dev
+  libghc-openglraw-dev libghc-parallel-dev libghc-parsec3-dev
+  libghc-primitive-dev libghc-quickcheck2-dev libghc-random-dev
+  libghc-regex-base-dev libghc-regex-compat-dev libghc-regex-posix-dev
+  libghc-scientific-dev libghc-split-dev libghc-statevar-dev libghc-stm-dev
+  libghc-syb-dev libghc-text-dev libghc-tf-random-dev
+  libghc-unordered-containers-dev libghc-vector-dev libghc-zlib-dev libgif7
+  libgit2-24 libgl1-mesa-dev libglade2-0 libglade2.0-cil libglew1.13
+  libglewmx1.13 libglib2.0-bin libglib2.0-cil libglib2.0-dev libglibmm-2.4-1v5
+  libglu1-mesa-dev libgmp-dev libgmpxx4ldbl libgnome-2-0 libgnome-bluetooth13
+  libgnome-menu-3-0 libgnome2-0 libgnome2-bin libgnome2-common libgnomecanvas2-0
+  libgnomecanvas2-common libgnomekbd-common libgnomekbd8 libgnomeui-0
+  libgnomeui-common libgnomevfs2-0 libgnomevfs2-common libgnutls-openssl27
+  libgpod-common libgpod4 libgrail6 libgsettings-qt1
+  libgstreamer-plugins-base0.10-0 libgstreamer0.10-0 libgtk-vnc-2.0-0
+  libgtk2.0-cil libgtk2.0-dev libgtkmm-2.4-1v5 libgtkmm-3.0-1v5
+  libgtksourceview-3.0-1 libgtksourceview-3.0-common libgtkspell0
+  libgtkspell3-3-0 libguava-java libgucharmap-2-90-7 libguice-java libgvnc-1.0-0
+  libgweather-3-6 libgweather-common libhamcrest-java libhardware2
+  libharfbuzz-dev libharfbuzz-gobject0 libhdf4-0-alt libhdf5-10
+  libhdf5-openmpi-10 libhdf5-openmpi-dev libhttp-parser2.1 libhttpclient-java
+  libhttpcore-java libhud2 libhwloc-dev libhwloc-plugins libhwloc5 libhybris
+  libhybris-common1 libibus-1.0-5 libibverbs-dev libibverbs1 libical1a
+  libice-dev libicu4j-49-java libicu4j-java libido3-0.1-0 libindicator7
+  libiscsi2 libiw30 libjansson4 libjaxen-java libjaxp1.3-java libjbig-dev
+  libjdom1-java libjetty-java libjetty8-java libjgoodies-common-java
+  libjgoodies-forms-java libjibx-java libjibx1.2-java libjline-java libjna-java
+  libjna-jni libjpeg-dev libjpeg-turbo8-dev libjpeg62 libjpeg8-dev
+  libjs-jquery-ui libjs-openlayers libjs-sphinxdoc libjs-underscore libjsch-java
+  libjsoncpp1 libjsoup-java libjsr305-java libjtidy-java libkf5activities5
+  libkf5archive5 libkf5attica5 libkf5auth-data libkf5auth5 libkf5bookmarks-data
+  libkf5bookmarks5 libkf5calendarevents5 libkf5codecs-data libkf5codecs5
+  libkf5completion-data libkf5completion5 libkf5config-bin libkf5config-data
+  libkf5configcore5 libkf5configgui5 libkf5configwidgets-data
+  libkf5configwidgets5 libkf5coreaddons-data libkf5coreaddons5 libkf5crash5
+  libkf5dbusaddons-bin libkf5dbusaddons-data libkf5dbusaddons5
+  libkf5declarative-data libkf5declarative5 libkf5globalaccel-bin
+  libkf5globalaccel-data libkf5globalaccel5 libkf5globalaccelprivate5
+  libkf5gpgmepp5 libkf5guiaddons5 libkf5i18n-data libkf5i18n5
+  libkf5iconthemes-bin libkf5iconthemes-data libkf5iconthemes5 libkf5idletime5
+  libkf5itemmodels5 libkf5itemviews-data libkf5itemviews5 libkf5jobwidgets-data
+  libkf5jobwidgets5 libkf5kiocore5 libkf5kiofilewidgets5 libkf5kiontlm5
+  libkf5kiowidgets5 libkf5newstuff-data libkf5newstuff5 libkf5notifications-data
+  libkf5notifications5 libkf5package-data libkf5package5 libkf5parts-data
+  libkf5parts-plugins libkf5parts5 libkf5plasma5 libkf5plasmaquick5
+  libkf5quickaddons5 libkf5service-bin libkf5service-data libkf5service5
+  libkf5solid5 libkf5solid5-data libkf5sonnet5-data libkf5sonnetcore5
+  libkf5sonnetui5 libkf5texteditor5 libkf5texteditor5-libjs-underscore
+  libkf5textwidgets-data libkf5textwidgets5 libkf5threadweaver5 libkf5wallet-bin
+  libkf5wallet-data libkf5wallet5 libkf5waylandclient5 libkf5widgetsaddons-data
+  libkf5widgetsaddons5 libkf5windowsystem-data libkf5windowsystem5
+  libkf5xmlgui-bin libkf5xmlgui-data libkf5xmlgui5 libkmlbase1 libkmldom1
+  libkmlengine1 libkwalletbackend5-5 libkxml2-java liblablgtk2-ocaml
+  liblangtag-common liblangtag1 liblapack-dev liblightdm-gobject-1-0 liblinear3
+  libllvm3.6v5 liblockfile-bin liblockfile1 liblog4j1.2-java liblucene2-java
+  liblzma-dev libm17n-0 libmad0-dev libmaven-parent-java libmaven2-core-java
+  libmaven3-core-java libmbim-glib4 libmbim-proxy libmcrypt4 libmedia1
+  libmessaging-menu0 libmetacity-private3a libmhash2 libmikmod-config
+  libmikmod-dev libmikmod3 libminiupnpc10 libminizip1 libmircommon5 libmm-glib0
+  libmono-2.0-1 libmono-2.0-dev libmono-accessibility4.0-cil
+  libmono-btls-interface4.0-cil libmono-cairo4.0-cil libmono-cecil-private-cil
+  libmono-cil-dev libmono-codecontracts4.0-cil
+  libmono-compilerservices-symbolwriter4.0-cil libmono-corlib4.5-cil
+  libmono-cscompmgd0.0-cil libmono-csharp4.0c-cil
+  libmono-custommarshalers4.0-cil libmono-data-tds4.0-cil libmono-db2-1.0-cil
+  libmono-debugger-soft4.0a-cil libmono-http4.0-cil libmono-i18n-cjk4.0-cil
+  libmono-i18n-mideast4.0-cil libmono-i18n-other4.0-cil libmono-i18n-rare4.0-cil
+  libmono-i18n-west4.0-cil libmono-i18n4.0-all libmono-i18n4.0-cil
+  libmono-ldap4.0-cil libmono-management4.0-cil
+  libmono-messaging-rabbitmq4.0-cil libmono-messaging4.0-cil
+  libmono-microsoft-build-engine4.0-cil libmono-microsoft-build-framework4.0-cil
+  libmono-microsoft-build-tasks-v4.0-4.0-cil
+  libmono-microsoft-build-utilities-v4.0-4.0-cil libmono-microsoft-build4.0-cil
+  libmono-microsoft-csharp4.0-cil libmono-microsoft-visualc10.0-cil
+  libmono-microsoft-web-infrastructure1.0-cil libmono-oracle4.0-cil
+  libmono-parallel4.0-cil libmono-peapi4.0a-cil libmono-posix4.0-cil
+  libmono-profiler libmono-rabbitmq4.0-cil libmono-relaxng4.0-cil
+  libmono-security4.0-cil libmono-sharpzip4.84-cil libmono-simd4.0-cil
+  libmono-smdiagnostics0.0-cil libmono-sqlite4.0-cil
+  libmono-system-componentmodel-composition4.0-cil
+  libmono-system-componentmodel-dataannotations4.0-cil
+  libmono-system-configuration-install4.0-cil
+  libmono-system-configuration4.0-cil libmono-system-core4.0-cil
+  libmono-system-data-datasetextensions4.0-cil libmono-system-data-entity4.0-cil
+  libmono-system-data-linq4.0-cil libmono-system-data-services-client4.0-cil
+  libmono-system-data-services4.0-cil libmono-system-data4.0-cil
+  libmono-system-deployment4.0-cil libmono-system-design4.0-cil
+  libmono-system-drawing-design4.0-cil libmono-system-drawing4.0-cil
+  libmono-system-dynamic4.0-cil libmono-system-enterpriseservices4.0-cil
+  libmono-system-identitymodel-selectors4.0-cil
+  libmono-system-identitymodel4.0-cil
+  libmono-system-io-compression-filesystem4.0-cil
+  libmono-system-io-compression4.0-cil libmono-system-json-microsoft4.0-cil
+  libmono-system-json4.0-cil libmono-system-ldap-protocols4.0-cil
+  libmono-system-ldap4.0-cil libmono-system-management4.0-cil
+  libmono-system-messaging4.0-cil libmono-system-net-http-formatting4.0-cil
+  libmono-system-net-http-webrequest4.0-cil libmono-system-net-http4.0-cil
+  libmono-system-net4.0-cil libmono-system-numerics-vectors4.0-cil
+  libmono-system-numerics4.0-cil libmono-system-reactive-core2.2-cil
+  libmono-system-reactive-debugger2.2-cil
+  libmono-system-reactive-experimental2.2-cil
+  libmono-system-reactive-interfaces2.2-cil libmono-system-reactive-linq2.2-cil
+  libmono-system-reactive-observable-aliases0.0-cil
+  libmono-system-reactive-platformservices2.2-cil
+  libmono-system-reactive-providers2.2-cil
+  libmono-system-reactive-runtime-remoting2.2-cil
+  libmono-system-reactive-windows-forms2.2-cil
+  libmono-system-reactive-windows-threading2.2-cil
+  libmono-system-reflection-context4.0-cil libmono-system-runtime-caching4.0-cil
+  libmono-system-runtime-durableinstancing4.0-cil
+  libmono-system-runtime-serialization-formatters-soap4.0-cil
+  libmono-system-runtime-serialization4.0-cil libmono-system-runtime4.0-cil
+  libmono-system-security4.0-cil libmono-system-servicemodel-activation4.0-cil
+  libmono-system-servicemodel-discovery4.0-cil
+  libmono-system-servicemodel-internals0.0-cil
+  libmono-system-servicemodel-routing4.0-cil
+  libmono-system-servicemodel-web4.0-cil libmono-system-servicemodel4.0a-cil
+  libmono-system-serviceprocess4.0-cil
+  libmono-system-threading-tasks-dataflow4.0-cil
+  libmono-system-transactions4.0-cil libmono-system-web-abstractions4.0-cil
+  libmono-system-web-applicationservices4.0-cil
+  libmono-system-web-dynamicdata4.0-cil
+  libmono-system-web-extensions-design4.0-cil
+  libmono-system-web-extensions4.0-cil libmono-system-web-http-selfhost4.0-cil
+  libmono-system-web-http-webhost4.0-cil libmono-system-web-http4.0-cil
+  libmono-system-web-mobile4.0-cil libmono-system-web-mvc3.0-cil
+  libmono-system-web-razor2.0-cil libmono-system-web-regularexpressions4.0-cil
+  libmono-system-web-routing4.0-cil libmono-system-web-services4.0-cil
+  libmono-system-web-webpages-deployment2.0-cil
+  libmono-system-web-webpages-razor2.0-cil libmono-system-web-webpages2.0-cil
+  libmono-system-web4.0-cil
+  libmono-system-windows-forms-datavisualization4.0a-cil
+  libmono-system-windows-forms4.0-cil libmono-system-windows4.0-cil
+  libmono-system-workflow-activities4.0-cil
+  libmono-system-workflow-componentmodel4.0-cil
+  libmono-system-workflow-runtime4.0-cil libmono-system-xaml4.0-cil
+  libmono-system-xml-linq4.0-cil libmono-system-xml-serialization4.0-cil
+  libmono-system-xml4.0-cil libmono-system4.0-cil libmono-tasklets4.0-cil
+  libmono-webbrowser4.0-cil libmono-webmatrix-data4.0-cil
+  libmono-windowsbase4.0-cil libmono-xbuild-tasks4.0-cil libmonoboehm-2.0-1
+  libmonosgen-2.0-1 libmonosgen-2.0-dev libmotif-common libmpich-dev libmpich12
+  libmspub-0.1-1 libmwaw-0.3-3 libmysqlclient20 libmysqlcppconn7v5
+  libmythes-1.2-0 libnatpmp1 libncurses5-dev libncursesw5-dev libndp0
+  libneon27-gnutls libnetcdf11 libnetcf1 libnetfilter-conntrack3 libnghttp2-14
+  libnl-route-3-200 libnm-glib-vpn1 libnm-gtk-common libnm-gtk0 libnm0
+  libnma-common libnma0 libnotify-bin libnppc7.5 libnppi7.5 libnpps7.5
+  libnuma-dev libnunit-cil-dev libnunit-console-runner2.6.3-cil
+  libnunit-core-interfaces2.6.3-cil libnunit-core2.6.3-cil
+  libnunit-framework2.6.3-cil libnunit-mocks2.6.3-cil libnunit-util2.6.3-cil
+  libnux-4.0-0 libnux-4.0-common libnvblas7.5 libnvrtc7.5 libnvtoolsext1
+  libnvvm3 libobjc-5-dev libobjc4 libobjenesis-java libodbc1 libodfgen-0.1-1
+  libogdi3.2 libogg-dev libopencv-photo2.4v5 libopenjp2-7 libopenmpi-dev
+  libopenmpi1.10 liborbit-2-0 liborcus-0.10-0v5 libosgi-annotation-java
+  libosgi-compendium-java libosgi-core-java libosgi-foundation-ee-java libotf0
+  liboxideqt-qmlplugin liboxideqtcore0 liboxideqtquick0 libpagemaker-0.0-0
+  libpango1.0-0 libpango1.0-dev libpangomm-1.4-1v5 libpcre3-dev libpcre32-3
+  libpcrecpp0v5 libpeas-1.0-0-python3loader libphonon4qt5-4 libpixman-1-dev
+  libplexus-ant-factory-java libplexus-archiver-java libplexus-bsh-factory-java
+  libplexus-cipher-java libplexus-classworlds-java libplexus-classworlds2-java
+  libplexus-cli-java libplexus-component-annotations-java
+  libplexus-component-metadata-java libplexus-container-default-java
+  libplexus-container-default1.5-java libplexus-containers-java
+  libplexus-containers1.5-java libplexus-interactivity-api-java
+  libplexus-interpolation-java libplexus-io-java libplexus-sec-dispatcher-java
+  libplexus-utils-java libplexus-utils2-java libpng12-dev libpolkit-qt5-1-1
+  libproj9 libprotobuf9v5 libproxy1-plugin-gsettings
+  libproxy1-plugin-networkmanager libpthread-stubs0-dev libpulse-dev
+  libpulse-mainloop-glib0 libpwquality-common libpwquality1 libpython-dev
+  libpython2.7-dev libqdox2-java libqgsttools-p1 libqmi-glib1 libqmi-proxy
+  libqqwing2v5 libqt4-dbus libqt4-declarative libqt4-network libqt4-script
+  libqt4-sql libqt4-sql-sqlite libqt4-xml libqt4-xmlpatterns libqt5clucene5
+  libqt5designer5 libqt5feedback5 libqt5help5 libqt5multimedia5
+  libqt5multimedia5-plugins libqt5multimediawidgets5 libqt5opengl5
+  libqt5organizer5 libqt5positioning5 libqt5qml5 libqt5quick5 libqt5quicktest5
+  libqt5script5 libqt5sql5 libqt5sql5-sqlite libqt5test5 libqt5webkit5
+  libqt5websockets5 libqt5x11extras5 libqt5xml5 libqtcore4 libqtdbus4 libqtgui4
+  librados2 libraptor2-0 librasqal3 librbd1 librdf0 librdmacm1 libreadline-dev
+  libreadline6-dev librecode0 libregexp-java librelaxng-datatype-java
+  libreoffice-avmedia-backend-gstreamer libreoffice-base-core libreoffice-calc
+  libreoffice-common libreoffice-core libreoffice-draw libreoffice-gnome
+  libreoffice-gtk libreoffice-help-en-us libreoffice-help-pt
+  libreoffice-help-pt-br libreoffice-impress libreoffice-l10n-pt
+  libreoffice-l10n-pt-br libreoffice-math libreoffice-ogltrans
+  libreoffice-pdfimport libreoffice-style-breeze libreoffice-style-galaxy
+  libreoffice-writer librevenge-0.0-0 librhythmbox-core9 librxtx-java
+  libsdl-image1.2 libsdl-image1.2-dev libsdl-mixer1.2 libsdl-mixer1.2-dev
+  libsdl-ttf2.0-0 libsdl-ttf2.0-dev libsdl1.2-dev libsdl2-2.0-0
+  libservlet2.5-java libservlet3.0-java libservlet3.1-java libsfml-audio2.3v5
+  libsfml-dev libsfml-graphics2.3v5 libsfml-network2.3v5 libsfml-system2.3v5
+  libsfml-window2.3v5 libsgutils2-2 libsignon-extension1 libsignon-glib1
+  libsignon-plugins-common1 libsignon-qt5-1 libsisu-inject-java
+  libsisu-plexus-java libslang2-dev libslf4j-java libsm-dev libsmi2ldbl
+  libsnapd-glib1 libsndio6.1 libsonic0 libspatialite7 libspeechd2
+  libspice-client-glib-2.0-8 libspice-client-gtk-3.0-4 libspice-server1
+  libsqlite3-dev libssh-4 libssh2-1 libssl-dev libssl-doc libssl1.0.0:i386
+  libsuperlu4 libswt-cairo-gtk-3-jni libswt-glx-gtk-3-jni libswt-gnome-gtk-3-jni
+  libswt-gtk-3-java libswt-gtk-3-jni libswt-webkit-gtk-3-jni libsz2
+  libthrust-dev libtiff5-dev libtiffxx5 libtimezonemap-data libtimezonemap1
+  libtinfo-dev libtinyxml2.6.2v5 libtomcat7-java libubuntugestures5
+  libubuntutoolkit5 libunity-action-qt1 libunity-control-center1
+  libunity-core-6.0-9 libunity-gtk2-parser0 libunity-gtk3-parser0 libunity-misc4
+  libunity-settings-daemon1 libunity-webapps0 libunwind8 libupower-glib3
+  liburiparser1 liburl-dispatcher1 libusbredirhost1 libusbredirparser1
+  libuuid-perl libv4l-dev libv4l2rds0 libvdpau-dev libvirt-bin libvirt0
+  libvisio-0.1-1 libvncclient1 libvncserver1 libvoikko1 libvorbis-dev
+  libvsqlitepp3v5 libwagon-java libwagon2-java libwebp-dev libwebpdemux1
+  libwhoopsie-preferences0 libwhoopsie0 libwinpr-crt0.1 libwinpr-dsparse0.1
+  libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1
+  libwinpr-input0.1 libwinpr-interlocked0.1 libwinpr-library0.1 libwinpr-path0.1
+  libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1 libwinpr-sspi0.1
+  libwinpr-synch0.1 libwinpr-sysinfo0.1 libwinpr-thread0.1 libwinpr-utils0.1
+  libwireshark-data libwireshark8 libwiretap6 libwpd-0.10-10 libwpg-0.3-3
+  libwps-0.4-4 libwscodecs1 libwsutil7 libwxbase2.8-0 libwxgtk2.8-0
+  libx11-6:i386 libx11-dev libx11-doc libx11-xcb-dev libx264-dev libx86-1
+  libxalan2-java libxatracker2 libxau-dev libxau6:i386 libxbean-java
+  libxcb-composite0 libxcb-damage0 libxcb-dri2-0-dev libxcb-dri3-dev
+  libxcb-glx0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev
+  libxcb-shape0-dev libxcb-shm0-dev libxcb-sync-dev libxcb-xfixes0-dev
+  libxcb1:i386 libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxdmcp-dev libxdmcp6:i386 libxen-4.6 libxenstore3.0 libxerces-c3.1
+  libxerces2-java libxext-dev libxext-doc libxext6-dbg libxfixes-dev
+  libxfreerdp-client1.1 libxft-dev libxi-dev libxinerama-dev libxkbfile1
+  libxklavier16 libxm4 libxml-commons-external-java
+  libxml-commons-resolver1.1-java libxmu-dev libxmu-headers libxnvctrl0
+  libxom-java libxp6 libxpa1 libxpp2-java libxpp3-java libxrandr-dev
+  libxrender-dev libxshmfence-dev libxss-dev libxt-dev libxtst-dev libxtst-doc
+  libxtst6-dbg libxvidcore-dev libxvmc1 libxxf86vm-dev libyajl2
+  libyaml-tiny-perl libzeitgeist-1.0-1 libzip4 light-themes lightdm
+  linux-generic-hwe-16.04 linux-headers-4.8.0-52 linux-headers-4.8.0-52-generic
+  linux-headers-generic-hwe-16.04 linux-image-4.8.0-52-generic
+  linux-image-extra-4.8.0-52-generic linux-image-generic-hwe-16.04
+  linux-libc-dev-alpha-cross linux-libc-dev-arm64-cross
+  linux-libc-dev-armel-cross linux-libc-dev-armhf-cross
+  linux-libc-dev-hppa-cross linux-libc-dev-m68k-cross linux-libc-dev-mips-cross
+  linux-libc-dev-mips64-cross linux-libc-dev-mips64el-cross
+  linux-libc-dev-mipsel-cross linux-libc-dev-powerpc-cross
+  linux-libc-dev-powerpcspe-cross linux-libc-dev-ppc64-cross
+  linux-libc-dev-ppc64el-cross linux-libc-dev-s390x-cross
+  linux-libc-dev-sh4-cross linux-libc-dev-sparc64-cross lmbench lmbench-doc
+  lp-solve lshw lsof ltrace lua-lpeg m17n-db manpages-posix manpages-posix-dev
+  maven media-player-info memtest86+ mesa-common-dev metacity-common mininet
+  mobile-broadband-provider-info modemmanager mono-4.0-gac mono-4.0-service
+  mono-complete mono-csharp-shell mono-devel mono-gac mono-jay mono-mcs
+  mono-roslyn mono-runtime mono-runtime-common mono-runtime-sgen mono-utils
+  mono-xbuild monodoc-base monodoc-browser monodoc-manual mousetweaks mpich
+  mpich-doc msbuild msbuild-libhostfxr msbuild-sdkresolver mscompress msr-tools
+  mtools mtr-tiny mysql-client mysql-client-5.7 mysql-client-core-5.7
+  mysql-common mysql-server mysql-server-5.7 mysql-server-core-5.7
+  mysql-utilities mysql-workbench mysql-workbench-community mysql-workbench-data
+  mythes-en-us nano nasm nautilus-sendto nautilus-share ncurses-term ndiff
+  net-tools netcat-openbsd netperf network-manager network-manager-gnome
+  network-manager-pptp network-manager-pptp-gnome nmap nux-tools nvidia-375
+  nvidia-cuda-dev nvidia-cuda-doc nvidia-cuda-gdb nvidia-cuda-toolkit
+  nvidia-opencl-dev nvidia-opencl-icd-375 nvidia-prime nvidia-profiler
+  nvidia-settings nvidia-visual-profiler ocaml-base-nox ocl-icd-libopencl1
+  odbcinst odbcinst1debian2 onboard onboard-data opencl-headers openjdk-8-jre
+  openjdk-8-jre-headless openmpi-bin openmpi-common openoffice.org-hyphenation
+  openssh-client openssh-server openssh-sftp-server openvswitch-common
+  openvswitch-switch oracle-java8-installer oracle-java8-set-default
+  overlay-scrollbar overlay-scrollbar-gtk2 oxideqt-codecs-extra pcmciautils
+  pgadmin3 pgadmin3-data pgagent php php-common php-mcrypt php-mysql php7.0
+  php7.0-cli php7.0-common php7.0-json php7.0-mcrypt php7.0-mysql php7.0-opcache
+  php7.0-readline plainbox-provider-checkbox plainbox-provider-resource-generic
+  plainbox-secure-policy plasma-framework pm-utils policykit-1-gnome
+  policykit-desktop-privileges popularity-contest postgresql pppconfig pppoeconf
+  pptp-linux preview-latex-style printer-driver-brlaser printer-driver-c2esp
+  printer-driver-foo2zjs printer-driver-foo2zjs-common printer-driver-min12xxw
+  printer-driver-pnm2ppa printer-driver-ptouch printer-driver-pxljr
+  printer-driver-sag-gdi printer-driver-splix proj-bin proj-data prosper ps2eps
+  pulseaudio-module-bluetooth pyotherside python-babel python-babel-localedata
+  python-bs4 python-chardet python-cheetah python-crypto python-cycler
+  python-dateutil python-debtcollector python-decorator python-dev
+  python-docutils python-ecdsa python-eventlet python-funcsigs python-glade2
+  python-greenlet python-html5lib python-imaging python-libvirt python-lxml
+  python-matplotlib python-matplotlib-data python-msgpack python-mysql.connector
+  python-netaddr python-notify python-numpy python-opencv python-oslo.config
+  python-paramiko python-pbr python-pexpect python-pil python-pip python-pip-whl
+  python-pkg-resources python-ptyprocess python-pygments python-pyodbc
+  python-pyparsing python-pysqlite2 python-repoze.lru python-roman python-routes
+  python-ryu python-scapy python-scipy python-scour python-setuptools python-six
+  python-stevedore python-tz python-vm-builder python-webob python-wheel
+  python-wrapt python2.7-dev python3-apport python3-argcomplete python3-blinker
+  python3-brlapi python3-bs4 python3-cairo python3-cffi-backend python3-chardet
+  python3-checkbox-support python3-cryptography python3-cups python3-cupshelpers
+  python3-debian python3-distupgrade python3-feedparser python3-gi-cairo
+  python3-gnupg python3-guacamole python3-html5lib python3-httplib2 python3-idna
+  python3-jinja2 python3-jwt python3-louis python3-lxml python3-magic
+  python3-mako python3-markupsafe python3-oauthlib python3-padme python3-pip
+  python3-plainbox python3-problem-report python3-progressbar python3-pyasn1
+  python3-pyatspi python3-pyparsing python3-pyqt5 python3-pyqt5.qtsvg
+  python3-pyqt5.qtwebsockets python3-requests python3-sip python3-six
+  python3-speechd python3-systemd python3-uno python3-update-manager
+  python3-urllib3 python3-wheel python3-xlsxwriter python3-yaml qdbus
+  qemu-block-extra qemu-kvm qemu-system-arm qemu-system-common qemu-system-x86
+  qemu-utils qml-module-io-thp-pyotherside qml-module-org-kde-kquickcontrols
+  qml-module-org-kde-kquickcontrolsaddons qml-module-qt-labs-folderlistmodel
+  qml-module-qt-labs-settings qml-module-qtfeedback
+  qml-module-qtgraphicaleffects qml-module-qtquick-controls
+  qml-module-qtquick-dialogs qml-module-qtquick-layouts
+  qml-module-qtquick-privatewidgets qml-module-qtquick-window2
+  qml-module-qtquick2 qml-module-qttest qml-module-ubuntu-components
+  qml-module-ubuntu-layouts qml-module-ubuntu-onlineaccounts
+  qml-module-ubuntu-performancemetrics qml-module-ubuntu-test
+  qml-module-ubuntu-web qmlscene qt-at-spi qtchooser qtcore4-l10n
+  qtdeclarative5-accounts-plugin qtdeclarative5-dev-tools
+  qtdeclarative5-qtquick2-plugin qtdeclarative5-test-plugin
+  qtdeclarative5-ubuntu-ui-toolkit-plugin qtdeclarative5-unity-action-plugin
+  r-base-core r-base-dev r-cran-boot r-cran-class r-cran-cluster
+  r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass
+  r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial
+  r-cran-survival r-doc-html r-recommended rcs realpath referenceassemblies-pcl
+  remmina remmina-common remmina-plugin-rdp remmina-plugin-vnc rfkill rhythmbox
+  rhythmbox-data rhythmbox-plugin-zeitgeist rhythmbox-plugins rstudio rsync
+  ruby-childprocess ruby-domain-name ruby-erubis ruby-ffi ruby-http-cookie
+  ruby-i18n ruby-listen ruby-log4r ruby-mime-types ruby-net-scp ruby-net-sftp
+  ruby-net-ssh ruby-netrc ruby-nokogiri ruby-rb-inotify ruby-rest-client
+  ruby-sqlite3 ruby-unf ruby-unf-ext ryu-bin sat4j sbcl sbsigntool
+  screen-resolution-extra seabios seahorse secureboot-db session-shortcuts
+  sharutils shotwell shotwell-common siege signon-keyring-extension
+  signon-plugin-oauth2 signon-plugin-password signon-ui signon-ui-service
+  signon-ui-x11 signond simple-scan snap-confine snapd snapd-login-service
+  sni-qt socat sonnet-plugins speech-dispatcher speech-dispatcher-audio-plugins
+  spew spice-client-glib-usb-acl-helper sqlite3 squashfs-tools ssh-import-id
+  strace stress stress-ng sublime-text-installer suru-icon-theme sysbench
+  syslinux syslinux-common syslinux-legacy system-config-printer-common
+  system-config-printer-gnome system-config-printer-udev tcl-dev tcl8.6-dev
+  tcpdump telnet tex-gyre texlive-extra-utils texlive-font-utils
+  texlive-fonts-recommended texlive-fonts-recommended-doc
+  texlive-generic-recommended texlive-latex-base texlive-latex-base-doc
+  texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended
+  texlive-latex-recommended-doc texlive-pictures texlive-pictures-doc
+  texlive-pstricks texlive-pstricks-doc thermald thunderbird
+  thunderbird-gnome-support thunderbird-locale-en thunderbird-locale-en-us
+  thunderbird-locale-pt thunderbird-locale-pt-br time tipa tk-dev tk8.6-dev
+  toshset transmission-common transmission-gtk ttf-ancient-fonts-symbola ubridge
+  ubuntu-artwork ubuntu-core-launcher ubuntu-desktop ubuntu-docs ubuntu-make
+  ubuntu-minimal ubuntu-mobile-icons ubuntu-release-upgrader-core
+  ubuntu-release-upgrader-gtk ubuntu-restricted-addons ubuntu-session
+  ubuntu-settings ubuntu-software ubuntu-sounds ubuntu-standard
+  ubuntu-system-service ubuntu-touch-sounds ubuntu-ui-toolkit-theme
+  ubuntu-vm-builder ubuntu-wallpapers ubuntu-wallpapers-xenial unity
+  unity-accessibility-profiles unity-asset-pool unity-control-center
+  unity-control-center-faces unity-control-center-signon unity-greeter
+  unity-gtk-module-common unity-gtk2-module unity-gtk3-module
+  unity-lens-applications unity-lens-files unity-lens-music unity-lens-photos
+  unity-lens-video unity-schemas unity-scope-calculator
+  unity-scope-chromiumbookmarks unity-scope-colourlovers unity-scope-devhelp
+  unity-scope-firefoxbookmarks unity-scope-gdrive unity-scope-home
+  unity-scope-manpages unity-scope-openclipart unity-scope-texdoc
+  unity-scope-tomboy unity-scope-video-remote unity-scope-virtualbox
+  unity-scope-yelp unity-scope-zotero unity-scopes-master-default
+  unity-scopes-runner unity-services unity-settings-daemon unity-webapps-common
+  unity-webapps-qml unity-webapps-service uno-libs3 update-manager
+  update-manager-core update-notifier update-notifier-common upower ure
+  ureadahead usb-creator-common usb-creator-gtk usb-modeswitch
+  usb-modeswitch-data vagrant valgrind vbetool vim-common vim-tiny vinagre vino
+  vpcs webapp-container webbrowser-app weka whoopsie whoopsie-preferences
+  wireless-tools wireshark wireshark-common wireshark-qt wpasupplicant x11-apps
+  x11-session-utils x11-xkb-utils x11proto-composite-dev x11proto-core-dev
+  x11proto-damage-dev x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev
+  x11proto-input-dev x11proto-kb-dev x11proto-randr-dev x11proto-record-dev
+  x11proto-render-dev x11proto-scrnsaver-dev x11proto-xext-dev
+  x11proto-xf86vidmode-dev x11proto-xinerama-dev x11vnc x11vnc-data xbrlapi
+  xcursor-themes xdg-user-dirs-gtk xdiagnose xfonts-base xfonts-scalable xinit
+  xinput xorg xorg-sgml-doctools xserver-common xserver-xorg-core-hwe-16.04
+  xserver-xorg-hwe-16.04 xserver-xorg-input-all-hwe-16.04
+  xserver-xorg-input-evdev-hwe-16.04 xserver-xorg-input-synaptics-hwe-16.04
+  xserver-xorg-input-wacom-hwe-16.04 xserver-xorg-legacy
+  xserver-xorg-video-all-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-ati-hwe-16.04 xserver-xorg-video-fbdev-hwe-16.04
+  xserver-xorg-video-intel-hwe-16.04 xserver-xorg-video-nouveau-hwe-16.04
+  xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-radeon-hwe-16.04
+  xserver-xorg-video-vesa-hwe-16.04 xserver-xorg-video-vmware-hwe-16.04
+  xtrans-dev xvfb zenity zenity-common zlib1g-dev
+
