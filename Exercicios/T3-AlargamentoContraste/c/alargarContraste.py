@@ -37,10 +37,12 @@ def alargarContraste(c):
 	#elif (160 <= c):
 	#	r = remap(c, 160, 255, 224, 255); g = b = r;
 
+	# Mapeamento especifico para figuraEscura.jpg
+	r = remap(c, 0, 19, 0, 255); g = b = r;
+	# Mapeamento especifico para figuraClara.jpg
+	#r = remap(c, 236, 255, 0, 255); g = b = r;
 	# Mapeamento especifico para gonzalez3_10.png
 	#r = remap(c, 102, 156, 0, 255); g = b = r;
-	# Mapeamento de inversão
-	r = remap(c, 0, 255, 255, 0); g = b = r
 
 	return (b,g,r)
 
@@ -67,4 +69,4 @@ if __name__ == '__main__':
 			nimg[i,j] = alargarContraste(img[i,j])
 
 	newPath = path.split('.')[0]
-	cv2.imwrite('1_' + newPath + '.png', nimg)
+	cv2.imwrite(newPath + '1.png', nimg)
