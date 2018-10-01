@@ -1,4 +1,3 @@
-#! --coding:utf-8--
 # Colorizador de imagens cinza 
 # by: Lucas Litter Mentz
 
