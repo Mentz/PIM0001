@@ -16,5 +16,10 @@ def printHist(img):
 
 img = cv2.imread(sys.argv[1], 0)
 #printHist(img)
-pyplot.hist(img.ravel(), 256, [0,256]);
-pyplot.show()
+fig = pyplot.hist(img.ravel(), 256, [0,256]);
+#pyplot.show()
+#pyplot.title('Mean')
+#pyplot.xlabel("value")
+#pyplot.ylabel("Frequency")
+pyplot.xlim([0,256])
+pyplot.savefig(sys.argv[2])

@@ -46,6 +46,8 @@ def equalizarContraste(img):
 		for j in range(0, k+1):
 			g2 += hist[j]
 		s[k] = int(round(g1 * g2))
+	
+	print(s)
 
 	# reaplicar os valores para cada pixel usando s[k]
 	for j in xrange(y):
@@ -58,10 +60,13 @@ def equalizarContraste(img):
 if __name__ == '__main__':
 	x, y, l = 10, 10, 0
 	path = 'garbage'
+	outpath = 'newGarbage'
+	
 
 	''' Ler variaveis da linha de comando '''
-	if len(argv) >= 2:
+	if len(argv) >= 3:
 		path = argv[1]
+		outpath = argv[2]
 	else:
 		print("Uso: python %s <caminho da imagem>\n"
 			  "---- O programa gera um arquivo de saida "
@@ -72,5 +77,4 @@ if __name__ == '__main__':
 	img = cv2.imread(path, 0)
 	nimg = equalizarContraste(img)
 
-	newPath = path.split('.')[0]
-	cv2.imwrite(newPath + '_eq.png', nimg)
+	cv2.imwrite(outpath, nimg)
