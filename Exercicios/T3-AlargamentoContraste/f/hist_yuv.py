@@ -10,11 +10,11 @@ img = cv2.imread(sys.argv[1])
 # pyplot.xlim([0,256])
 
 # Para histograma RGB
-color = ('b','g','r')
+color = ('b', 'g', 'r')
 pyplot.figure()
 for i,col in enumerate(color):
 	histr = cv2.calcHist([img],[i],None,[256],[0,256])
-	pyplot.plot(histr,color = col)
+	pyplot.plot(histr, color = ['black', 'blue', 'red'][i])
 # pyplot.show()
 pyplot.ylim(bottom=0)
 pyplot.xlim([0,256])
