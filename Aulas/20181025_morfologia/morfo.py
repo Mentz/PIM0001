@@ -11,10 +11,17 @@ import cv2
 # def limiarizar(img, limiar):
 def limiarizar(img):
 	limiar = skf.threshold_otsu(img)
-	out = img <= limiar
+	out = img > limiar
 
 	return out
 
+def toBGR(img):
+	y,x = len(img), len(img[0])
+	out = np.zeros((y,x,3), np.uint8)
+	for i in range(y):
+		for j in range(x):
+			out[i][j] = (0,0,0) if img[i][j] == 0 else (255,255,255)
+	return out
 
 # NÃO PRECISA IMPLEMENTAR DILATAÇÃO E EROSÃO
 # O objetivo é usar abertura e fechamento para contagem
@@ -70,8 +77,9 @@ def fechamento(img, est):
 	return out
 
 if __name__ == "__main__":
-	if len(sys.argv) <= 4:
+	# if len(sys.argv) <= 4:
 		# print("argumentos: <imagem> <estruturante> <limiar[0,255]> <saida>")
+	if len(sys.argv) <= 3:
 		print("argumentos: <imagem> <estruturante> <saida>")
 		sys.exit(1)
 	
@@ -97,5 +105,5 @@ if __name__ == "__main__":
 		outimg = abertura(img, est)
 	if op == 'f':
 		outimg = fechamento(img, est)
-	
-	cv2.imwrite(saida, outimg)
+
+	cv2.imwrite(saida, toBGR(outimg))
