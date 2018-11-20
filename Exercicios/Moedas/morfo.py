@@ -71,6 +71,11 @@ if __name__ == "__main__":
 	img = limiarizar(img)
 	est = limiarizar(est)
 
+	cv2.imshow("argh!", est)
+	cv2.waitKey()
+	cv2.destroyAllWindows()
+	cv2.waitKey()
+
 	op = input("Quer executar:\n [d]ilatação, [e]rosão, [a]bertura ou [f]echamento? ")
 	if op == 'd':
 		outimg = dilatacao(img, est)
