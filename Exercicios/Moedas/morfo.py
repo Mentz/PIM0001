@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 #! - coding: UTF8 -
 
+# Instalar os requisitos:
+# python3 -m pip install -U scikit-image scikit-learn matplotlib numpy opencv-python
+
 from matplotlib import pyplot
 import skimage.morphology as skm
 import skimage.filters as skf
