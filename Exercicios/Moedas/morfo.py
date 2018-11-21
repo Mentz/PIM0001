@@ -11,11 +11,16 @@ import sys
 import numpy as np
 import cv2
 
-# def limiarizar(img, limiar):
+
 def limiarizar(img):
 	limiar = skf.threshold_otsu(img)
-	out = img > limiar
-
+	# y, x = len(img), len(img[0])
+	# out = np.zeros((y, x, 3), np.uint8)
+	# for i in range(y):
+	# 	for j in range(x):
+	# 		out[i][j] = (0, 0, 0) if img[i][j] > limiar else (255,255,255)
+	# return out
+	out = img < limiar
 	return out
 
 def toBGR(img):
@@ -54,36 +59,47 @@ def fechamento(img, est):
 if __name__ == "__main__":
 	# if len(sys.argv) <= 4:
 		# print("argumentos: <imagem> <estruturante> <limiar[0,255]> <saida>")
-	if len(sys.argv) <= 3:
-		print("argumentos: <imagem> <estruturante> <saida>")
-		sys.exit(1)
+	# if len(sys.argv) <= 3:
+	# 	print("argumentos: <imagem> <estruturante> <saida>")
+	# 	sys.exit(1)
 	
 	impath = sys.argv[1]
-	espath = sys.argv[2]
+	# espath = sys.argv[2]
 	# limiar = int(sys.argv[3])
 	# saida  = sys.argv[4]
-	saida  = sys.argv[3]
+	# saida  = sys.argv[3]
 
 	# Carregar ambas imagens em escala de cinza (facilita limiarização)
 	img = cv2.imread(impath, 0)
-	est = cv2.imread(espath, 0)
+	# est = cv2.imread(espath, 0)
+
+	# cv2.imshow("argh", est)
+	# cv2.waitKey()
+	# cv2.destroyAllWindows()
 
 	img = limiarizar(img)
-	est = limiarizar(est)
+	img = fechamento(img, skm.disk(4))
+	img = skm.remove_small_holes(img, area_threshold=1024)
+	# est = limiarizar(est)
+	# est = fechamento(est, skm.disk(30))
 
-	cv2.imshow("argh!", est)
+	cv2.imwrite("etapas/moedas_limiar.png", toBGR(img))
+
+	# cv2.imshow("argh", toBGR(est))
+	# cv2.waitKey()
+	# cv2.destroyAllWindows()
+	cv2.imshow("argh", toBGR(img))
 	cv2.waitKey()
 	cv2.destroyAllWindows()
-	cv2.waitKey()
 
-	op = input("Quer executar:\n [d]ilatação, [e]rosão, [a]bertura ou [f]echamento? ")
-	if op == 'd':
-		outimg = dilatacao(img, est)
-	if op == 'e':
-		outimg = erosao(img, est)
-	if op == 'a':
-		outimg = abertura(img, est)
-	if op == 'f':
-		outimg = fechamento(img, est)
+	# op = input("Quer executar:\n [d]ilatação, [e]rosão, [a]bertura ou [f]echamento? ")
+	# if op == 'd':
+	# 	outimg = dilatacao(img, est)
+	# if op == 'e':
+	# 	outimg = erosao(img, est)
+	# if op == 'a':
+	# 	outimg = abertura(img, est)
+	# if op == 'f':
+	# 	outimg = fechamento(img, est)
 
-	cv2.imwrite(saida, toBGR(outimg))
+	# cv2.imwrite(saida, toBGR(outimg))
