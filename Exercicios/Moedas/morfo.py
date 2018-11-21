@@ -42,10 +42,36 @@ def fechamento(img, est):
 	out = erosao(img2, est)
 	return out
 
+def rotular(label, img, aux, y, x):
+	fila = [(y,x)]
+	while len(fila) > 0:
+		y,x = fila.pop()
+		aux[y][x] = label
+		# contagem[label] += 1
+		''' Acima, direita, abaixo, esquerda '''
+		if y > 0:
+			if img[y,x] == img[y-1, x] and aux[y-1, x] == -1: fila.append((y-1, x))
+		if x < len(img[0]) - 1:
+			if img[y,x] == img[y, x+1] and aux[y, x+1] == -1: fila.append((y, x+1))
+		if y < len(img) - 1:
+			if img[y,x] == img[y+1, x] and aux[y+1, x] == -1: fila.append((y+1, x))
+		if x > 0:
+			if img[y,x] == img[y, x-1] and aux[y, x-1] == -1: fila.append((y, x-1))
+
 # Essa função faz a contagem do número de elementos contíguos (blobs)
 # existentes numa imagem binária e retorna esse valor.
 def contaElementos(img):
-	return 8
+	y, x = len(img), len(img[0])
+	aux = np.zeros((y, x), int)
+	aux.fill(-1)
+	contador = 0
+	# Marcar o que não é fundo
+	for i in range(y):
+		for j in range(x):
+			if img[i][j] == 1 and aux[i][j] == -1:
+				contador += 1
+				rotular(contador, img, aux, i, j)
+	return contador
 
 if __name__ == "__main__":
 	# Carregar figura em escala de cinza (facilita limiarização)
@@ -67,6 +93,8 @@ if __name__ == "__main__":
 	
 	# Vetor que guardará cada versão filtrada da imagem original
 	imff = list()
+	# Vetor para armazenar quantidade de moedas detectadas em cada imagem
+	imct = list()
 
 	# A ordem de tamanho decrescente das moedas é a seguinte:
 	# 100
@@ -101,16 +129,20 @@ if __name__ == "__main__":
 		# Filtra a imagem por elementos iguais ou maiores que o estruturante
 		print("Filtrando moedas iguais ou maiores que o tipo {}".format(tipo))
 		imget = erosao(img, est)
+		# Aqui existem pequenos "blobs" indicando as moedas que foram reconhecidas.
 		imff.append(imget)
+		# Vamos contar quantos "blobs" existem para obter o número de moedas
+		imct.append(contaElementos(imget))
+		# .. e descontar dos "blobs" das moedas maiores.
+		latest = len(imct) - 1
+		for i in range(latest):
+			imct[latest] -= imct[i]
+		print("Existem {} moedas do tipo {}".format(imct[latest], tipo))
+
 		cv2.imwrite("etapas/im-m{}.png".format(tipo), toBGR(imget))
 
 		# cv2.imshow("argh", toBGR(est))
 		# cv2.waitKey()
 		# cv2.destroyAllWindows()
-
-	# Contagem de moedas em cada etapa
-	contagem = dict()
-	for tipo in moedas:
-		contagem[tipo] = contaElementos(img)
 
 	print("Fim! -- Na verdade, falta apresentar o valor das moedas na foto.")
