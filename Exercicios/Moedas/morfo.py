@@ -74,6 +74,12 @@ def contaElementos(img):
 	return contador
 
 if __name__ == "__main__":
+	# Habilitar verbose se o usuário quiser
+	verbose = False
+	if len(sys.argv) > 1:
+		if sys.argv[1] == "verbose":
+			verbose = True
+
 	# Carregar figura em escala de cinza (facilita limiarização)
 	print("Calculando limiarização da imagem")
 	impath = "img/moedas.jpg"
@@ -95,6 +101,8 @@ if __name__ == "__main__":
 	imff = list()
 	# Vetor para armazenar quantidade de moedas detectadas em cada imagem
 	imct = list()
+	# Total de valores
+	total = 0
 
 	# A ordem de tamanho decrescente das moedas é a seguinte:
 	# 100
@@ -108,8 +116,10 @@ if __name__ == "__main__":
 
 	# Cada elemento estruturante será carregado de maneira similar
 	moedas = ["100", "25-2", "25-1", "50", "10-2", "5-2", "5-1", "10-1"]
+	valores = {"100":100, "25-2":25, "25-1":25, "50":50,
+		"10-2":10, "5-2":5, "5-1":5, "10-1":10}
 	for tipo in moedas:
-		print("Calculando estruturante da moeda {}".format(tipo))
+		if verbose: print("Calculando estruturante da moeda {}".format(tipo))
 		espath = "img/m" + tipo + ".png"
 		est = cv2.imread(espath, 0)
 		est = limiarizar(est)
@@ -127,7 +137,7 @@ if __name__ == "__main__":
 		cv2.imwrite("etapas/est_m{}.png".format(tipo), toBGR(est))
 
 		# Filtra a imagem por elementos iguais ou maiores que o estruturante
-		print("Filtrando moedas iguais ou maiores que o tipo {}".format(tipo))
+		if verbose: print("Filtrando moedas iguais ou maiores que o tipo {}".format(tipo))
 		imget = erosao(img, est)
 		# Aqui existem pequenos "blobs" indicando as moedas que foram reconhecidas.
 		imff.append(imget)
@@ -138,6 +148,8 @@ if __name__ == "__main__":
 		for i in range(latest):
 			imct[latest] -= imct[i]
 		print("Existem {} moedas do tipo {}".format(imct[latest], tipo))
+		total += valores[tipo] * imct[latest]
+		if verbose: print("Total até agora: R$ {:.02f}".format(total / 100))
 
 		cv2.imwrite("etapas/im-m{}.png".format(tipo), toBGR(imget))
 
@@ -145,4 +157,4 @@ if __name__ == "__main__":
 		# cv2.waitKey()
 		# cv2.destroyAllWindows()
 
-	print("Fim! -- Na verdade, falta apresentar o valor das moedas na foto.")
+	print("Valor total: R$ {:.02f}".format(total / 100))
