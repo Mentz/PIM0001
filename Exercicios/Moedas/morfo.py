@@ -63,13 +63,12 @@ if __name__ == "__main__":
 	# 	print("argumentos: <imagem> <estruturante> <saida>")
 	# 	sys.exit(1)
 	
-	impath = sys.argv[1]
-	# espath = sys.argv[2]
 	# limiar = int(sys.argv[3])
 	# saida  = sys.argv[4]
 	# saida  = sys.argv[3]
 
-	# Carregar ambas imagens em escala de cinza (facilita limiarização)
+	# Carregar figura em escala de cinza (facilita limiarização)
+	impath = "img/moedas.jpg"
 	img = cv2.imread(impath, 0)
 	# est = cv2.imread(espath, 0)
 
@@ -79,18 +78,31 @@ if __name__ == "__main__":
 
 	img = limiarizar(img)
 	img = fechamento(img, skm.disk(4))
-	img = skm.remove_small_holes(img, area_threshold=1024)
-	# est = limiarizar(est)
-	# est = fechamento(est, skm.disk(30))
+	img = skm.remove_small_holes(img, area_threshold=256)
 
 	cv2.imwrite("etapas/moedas_limiar.png", toBGR(img))
 
-	# cv2.imshow("argh", toBGR(est))
-	# cv2.waitKey()
-	# cv2.destroyAllWindows()
 	cv2.imshow("argh", toBGR(img))
 	cv2.waitKey()
 	cv2.destroyAllWindows()
+
+
+	# Cada elemento estruturante será carregado de maneira similar
+	for tipo in ["5-1", "5-2", "10-1", "10-2", "25-1", "25-2", "50", "100"]:
+		espath = "img/m" + tipo + ".png"
+		est = cv2.imread(espath, 0)
+		est = limiarizar(est)
+		est = fechamento(est, skm.disk(4))
+		est = skm.remove_small_holes(est, area_threshold=256)
+
+		cv2.imwrite("etapas/est_m{}.png".format(tipo), toBGR(est))
+
+		cv2.imshow("argh", toBGR(est))
+		cv2.waitKey()
+		cv2.destroyAllWindows()
+
+	# est = limiarizar(est)
+	# est = fechamento(est, skm.disk(30))
 
 	# op = input("Quer executar:\n [d]ilatação, [e]rosão, [a]bertura ou [f]echamento? ")
 	# if op == 'd':
