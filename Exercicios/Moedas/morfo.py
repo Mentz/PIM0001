@@ -78,15 +78,14 @@ if __name__ == "__main__":
 
 	img = limiarizar(img)
 	img = fechamento(img, skm.disk(4))
-	img = skm.remove_small_holes(img, area_threshold=256)
+	img = skm.remove_small_holes(img, area_threshold=768)
 
 	cv2.imwrite("etapas/moedas_limiar.png", toBGR(img))
 
-	cv2.imshow("argh", toBGR(img))
-	cv2.waitKey()
-	cv2.destroyAllWindows()
-
-
+	# cv2.imshow("argh", toBGR(img))
+	# cv2.waitKey()
+	# cv2.destroyAllWindows()
+	
 	# Cada elemento estruturante será carregado de maneira similar
 	for tipo in ["5-1", "5-2", "10-1", "10-2", "25-1", "25-2", "50", "100"]:
 		espath = "img/m" + tipo + ".png"
@@ -97,9 +96,12 @@ if __name__ == "__main__":
 
 		cv2.imwrite("etapas/est_m{}.png".format(tipo), toBGR(est))
 
-		cv2.imshow("argh", toBGR(est))
-		cv2.waitKey()
-		cv2.destroyAllWindows()
+		imget = erosao(img, est)
+		cv2.imwrite("etapas/im-m{}.png".format(tipo), toBGR(imget))
+
+		# cv2.imshow("argh", toBGR(est))
+		# cv2.waitKey()
+		# cv2.destroyAllWindows()
 
 	# est = limiarizar(est)
 	# est = fechamento(est, skm.disk(30))
